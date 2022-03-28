@@ -19,6 +19,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 #alias tmux="tmux -2"
 alias rb="source ~/.zshrc ~/config/nvim ~/.motd_shown ~/tmux.conf"
 alias v="nvim"
+alias sv="sudo nvim"
 alias ea="nvim ~/.zshrc"
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
@@ -38,7 +39,7 @@ alias ls='lsd --group-dirs=first'
 alias ctf='cd /home/cyber/CTF'
 alias vba='VBoxClient --clipboard && VBoxClient --draganddrop'
 alias target='echo $1 > /home/cyber/.config/polybar/scripts/target_info.txt'
-PROMPT="%(?:%{%} ﮊ:%{%} ﮊ) %{$fg[white]%}%c%{$reset_color%} $(git_prompt_info)"
+PROMPT="%(?:%{%} ﮊ:%{%} ﮊ) %{$fg[white]%}%c %{$reset_color%} $(git_prompt_info)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
  # Change cursor shape for different vi modes.

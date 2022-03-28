@@ -4,7 +4,7 @@
  
 # terminal emulator
 alt + Return
-    kitty
+    mate-terminal 
  
 # program launcher
 alt + d
@@ -16,7 +16,7 @@ alt + d
 
 #open Firefox
 alt + shift + f 
-    firejail /opt/firefox/firefox
+    /opt/firefox/firefox
 
 #
 # bspwm hotkeys
